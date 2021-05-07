@@ -36,34 +36,12 @@
       </form>
     </div>
     <div v-else class="flex flex-wrap mt-6">
-      <div v-for="game in games" class="flex items-center justify-center w-1/6 mt-2">
-        <div class="space-y-8 bg-white p-4">
-          <div>
-            <img class="mx-auto h-12 w-auto" :src="game.thumbnailUrl" alt="Workflow" />
-            <p class="mt-6 text-center">
-              { game.title }
-            </p>
-            <p class="mt-2 text-center text-sm text-gray-600">
-              Or
-              {{ ' ' }}
-              <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
-                start your 14-day free trial
-              </a>
-            </p>
-          </div>
-          <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-            <span class="absolute left-0 inset-y-0 flex items-center pl-3">
-            </span>
-            Sign in
-          </button>
-        </div>
-      </div>
+      {{games}}
     </div>
   </div>
 </template>
 
 <script>
-import Card from './Card.vue'
 import { ref, reactive } from 'vue'
 
 const users = [
@@ -92,7 +70,7 @@ const games = ref([]);
 
 
 const fetchData = () => {
-  fetch('https://jsonplaceholder.typicode.com/albums/1/photos')
+  fetch('https://my-json-server.typicode.com/isidrogg/GamingTest/db')
       .then(response => response.json())
       .then(json => games.value = json)
 }
@@ -100,7 +78,6 @@ const fetchData = () => {
 
 
 export default {
-  components: {Card},
   setup() {
     const login = () => {
       if(users.some(item => item.username === infoUser.username && item.password === infoUser.password)) {
