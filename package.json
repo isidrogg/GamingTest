@@ -1,0 +1,25 @@
+{
+  "name": "taller-cypress",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "cypress": "^7.2.0",
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "postcss": "^8.2.14",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.2.3"
+  }
+}
