@@ -1,55 +1,57 @@
-[{
-	"title": "Crossout",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/5\/thumbnail.jpg",
-	"short_description": "A post-apocalyptic MMO vehicle combat game! ",
-	"genre": "Shooter",
-	"platform": "PC (Windows)"
-}, {
-	"title": "Heavy Metal Machines",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/83\/thumbnail.jpg",
-	"short_description": "A free-to-play multiplayer vehicular combat game based in a post-apocalyptic world.",
-	"genre": "MOBA",
-	"platform": "PC (Windows)"
-}, {
-	"title": "Riding Club Championships",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/93\/thumbnail.jpg",
-	"short_description": "An online competitive horse riding game inspired by traditional equestrian disciplines. ",
-	"genre": "Racing",
-	"platform": "PC (Windows)"
-}, {
-	"title": "Forza Motorsport 6: Apex",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/121\/thumbnail.jpg",
-	"short_description": "A free-to-play MMO racing game that comes from makers of one of the most popular video game racing series ever. ",
-	"genre": "Racing",
-	"platform": "PC (Windows)"
-}, {
-	"title": "Metal War Online: Retribution",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/137\/thumbnail.jpg",
-	"short_description": "A high-speed multiplayer online concept car shooter game with racing elements!",
-	"genre": "Shooter",
-	"platform": "PC (Windows)"
-}, {
-	"title": "Transformice",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/179\/thumbnail.jpg",
-	"short_description": "A cute little free-to-play MMO platformer.",
-	"genre": "Fantasy",
-	"platform": "PC (Windows), Web Browser"
-}, {
-	"title": "APB Reloaded",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/258\/thumbnail.jpg",
-	"short_description": "A free to play 3D MMO third person shooter game brought to you by GTA creator.",
-	"genre": "Shooter",
-	"platform": "PC (Windows)"
-}, {
-	"title": "Grand Prix Racing Online",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/351\/thumbnail.jpg",
-	"short_description": "A free-to-play web-based motorsport management game.",
-	"genre": "Strategy",
-	"platform": "Web Browser"
-}, {
-	"title": "Rocket League",
-	"thumbnail": "https:\/\/www.freetogame.com\/g\/474\/thumbnail.jpg",
-	"short_description": "Get your car-soccer gaming on for free with Psyonix\u2019s Rocket League. The popular competitive multi-player game is a popular offering with over 57 million players.",
-	"genre": "Sports",
-	"platform": "PC (Windows)"
-}]
+{
+	"games": [{
+		"title": "Crossout",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/5\/thumbnail.jpg",
+		"short_description": "A post-apocalyptic MMO vehicle combat game! ",
+		"genre": "Shooter",
+		"platform": "PC (Windows)"
+	}, {
+		"title": "Heavy Metal Machines",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/83\/thumbnail.jpg",
+		"short_description": "A free-to-play multiplayer vehicular combat game based in a post-apocalyptic world.",
+		"genre": "MOBA",
+		"platform": "PC (Windows)"
+	}, {
+		"title": "Riding Club Championships",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/93\/thumbnail.jpg",
+		"short_description": "An online competitive horse riding game inspired by traditional equestrian disciplines. ",
+		"genre": "Racing",
+		"platform": "PC (Windows)"
+	}, {
+		"title": "Forza Motorsport 6: Apex",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/121\/thumbnail.jpg",
+		"short_description": "A free-to-play MMO racing game that comes from makers of one of the most popular video game racing series ever. ",
+		"genre": "Racing",
+		"platform": "PC (Windows)"
+	}, {
+		"title": "Metal War Online: Retribution",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/137\/thumbnail.jpg",
+		"short_description": "A high-speed multiplayer online concept car shooter game with racing elements!",
+		"genre": "Shooter",
+		"platform": "PC (Windows)"
+	}, {
+		"title": "Transformice",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/179\/thumbnail.jpg",
+		"short_description": "A cute little free-to-play MMO platformer.",
+		"genre": "Fantasy",
+		"platform": "PC (Windows), Web Browser"
+	}, {
+		"title": "APB Reloaded",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/258\/thumbnail.jpg",
+		"short_description": "A free to play 3D MMO third person shooter game brought to you by GTA creator.",
+		"genre": "Shooter",
+		"platform": "PC (Windows)"
+	}, {
+		"title": "Grand Prix Racing Online",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/351\/thumbnail.jpg",
+		"short_description": "A free-to-play web-based motorsport management game.",
+		"genre": "Strategy",
+		"platform": "Web Browser"
+	}, {
+		"title": "Rocket League",
+		"thumbnail": "https:\/\/www.freetogame.com\/g\/474\/thumbnail.jpg",
+		"short_description": "Get your car-soccer gaming on for free with Psyonix\u2019s Rocket League. The popular competitive multi-player game is a popular offering with over 57 million players.",
+		"genre": "Sports",
+		"platform": "PC (Windows)"
+	}]
+}
