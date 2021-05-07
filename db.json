@@ -1,0 +1,61 @@
+[{
+	"id": 5,
+	"title": "Crossout",
+	"thumbnail": "https:\/\/www.freetogame.com\/g\/5\/thumbnail.jpg",
+	"short_description": "A post-apocalyptic MMO vehicle combat game! ",
+	"game_url": "https:\/\/www.freetogame.com\/open\/crossout",
+	"genre": "Shooter",
+	"platform": "PC (Windows)",
+	"publisher": "Targem",
+	"developer": "Gaijin",
+	"release_date": "2017-05-30",
+	"freetogame_profile_url": "https:\/\/www.freetogame.com\/crossout"
+}, {
+	"id": 83,
+	"title": "Heavy Metal Machines",
+	"thumbnail": "https:\/\/www.freetogame.com\/g\/83\/thumbnail.jpg",
+	"short_description": "A free-to-play multiplayer vehicular combat game based in a post-apocalyptic world.",
+	"game_url": "https:\/\/www.freetogame.com\/open\/heavy-metal-machines",
+	"genre": "MOBA",
+	"platform": "PC (Windows)",
+	"publisher": "Hoplon",
+	"developer": "Hoplon",
+	"release_date": "2017-01-31",
+	"freetogame_profile_url": "https:\/\/www.freetogame.com\/heavy-metal-machines"
+}, {
+	"id": 93,
+	"title": "Riding Club Championships",
+	"thumbnail": "https:\/\/www.freetogame.com\/g\/93\/thumbnail.jpg",
+	"short_description": "An online competitive horse riding game inspired by traditional equestrian disciplines. ",
+	"game_url": "https:\/\/www.freetogame.com\/open\/riding-club-championships",
+	"genre": "Racing",
+	"platform": "PC (Windows)",
+	"publisher": "Artplant",
+	"developer": "Artplant",
+	"release_date": "2016-09-27",
+	"freetogame_profile_url": "https:\/\/www.freetogame.com\/riding-club-championships"
+}, {
+	"id": 121,
+	"title": "Forza Motorsport 6: Apex",
+	"thumbnail": "https:\/\/www.freetogame.com\/g\/121\/thumbnail.jpg",
+	"short_description": "A free-to-play MMO racing game that comes from makers of one of the most popular video game racing series ever. ",
+	"game_url": "https:\/\/www.freetogame.com\/open\/forza-motorsport-6-apex",
+	"genre": "Racing",
+	"platform": "PC (Windows)",
+	"publisher": "Microsoft",
+	"developer": "Turn 10",
+	"release_date": "2015-09-15",
+	"freetogame_profile_url": "https:\/\/www.freetogame.com\/forza-motorsport-6-apex"
+}, {
+	"id": 137,
+	"title": "Metal War Online: Retribution",
+	"thumbnail": "https:\/\/www.freetogame.com\/g\/137\/thumbnail.jpg",
+	"short_description": "A high-speed multiplayer online concept car shooter game with racing elements!",
+	"game_url": "https:\/\/www.freetogame.com\/open\/metal-war-online",
+	"genre": "Shooter",
+	"platform": "PC (Windows)",
+	"publisher": "GDT Limited",
+	"developer": "GDT Limited",
+	"release_date": "2015-12-11",
+	"freetogame_profile_url": "https:\/\/www.freetogame.com\/metal-war-online"
+}]
