@@ -1,0 +1,10 @@
+{
+  "ok": {
+    "username": "usuario1",
+    "password": "112345"
+  },
+  "ko": {
+    "username": "usuario1",
+    "password": "1123422"
+  }
+}
