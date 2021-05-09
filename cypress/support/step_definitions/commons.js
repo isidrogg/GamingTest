@@ -1,3 +1,5 @@
+import { Given } from 'cypress-cucumber-preprocessor/steps';
+
 const goTo = page => {
     switch (page) {
         case 'Página de login':

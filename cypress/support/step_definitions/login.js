@@ -1,3 +1,6 @@
+import { When, Then } from 'cypress-cucumber-preprocessor/steps';
+
+
 When('Introduzco mis credenciales ok', () => {
     cy.get('#username').type('usuario1');
     cy.get('#password').type('112345');

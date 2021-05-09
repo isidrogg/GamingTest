@@ -7,7 +7,7 @@
         <span class="block text-indigo-600 xl:inline">Cypress</span>
       </h1>
       <div v-if="isLogged" data-cypress="contador">
-        Contador {{ getNumSelectedGames() }}
+        Contador <span>{{ getNumSelectedGames() }}</span>
       </div>
     </div>
   </header>
@@ -52,11 +52,11 @@
       </form>
     </div>
     <div v-else class="flex flex-wrap mt-6" id="list-games">
-      <div v-for="game in games" class="flex items-center justify-center w-1/4 mb-3 p-4 h-1/3">
+      <div v-for="game in games" data-card="game" class="flex items-center justify-center w-1/4 mb-3 p-4 h-1/3">
         <div class="bg-white w-full p-8 h-full border-2 border-blue-600 rounded-md">
           <div class="h-5/6">
             <img class="mx-auto h-12 w-auto" :src="game.thumbnail" alt="Workflow" />
-            <p class="mt-6 text-center font-medium text-indigo-600 hover:text-indigo-500">
+            <p data-title="title" class="mt-6 text-center font-medium text-indigo-600 hover:text-indigo-500">
               {{ game.title }}
             </p>
             <p class="mt-2 text-center text-sm text-gray-600 h-3/6">
@@ -64,6 +64,7 @@
             </p>
           </div>
           <svg xmlns="http://www.w3.org/2000/svg"
+               data-logo="remove"
                v-if="game.selected"
                @click="selectGame(game)"
                class="h-5 w-5  fill-current text-red-600"
@@ -71,6 +72,7 @@
             <path fill-rule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" />
           </svg>
           <svg xmlns="http://www.w3.org/2000/svg"
+               data-logo="add"
                v-if="!game.selected"
                @click="selectGame(game)"
                class="h-5 w-5 fill-current text-green-600"
